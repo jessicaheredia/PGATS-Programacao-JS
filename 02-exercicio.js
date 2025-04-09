@@ -1,5 +1,5 @@
 const cachorro = [
-    {nome:"   lElê ",
+    {nome:"   lElê  ",
     idade: 3,
     peso: 4.5,
     raca: "Shitzu",
@@ -7,9 +7,8 @@ const cachorro = [
     }
 ]
     const nomeSemFormatar = cachorro[0].nome;
-    const nome = nomeSemFormatar.trim();
-    const nomeFormatado = nome.charAt(0).toUpperCase() + nome.slice(1).toLowerCase();
-    const nomeUnico = nome.split(" ");
+    const nomeFormatado = nomeSemFormatar.trim().charAt(0).toUpperCase() + nomeSemFormatar.trim().slice(1).toLowerCase();
+    const nomeUnico = nomeSemFormatar.trim().split(" ");
     const umNome = nomeUnico.length === 1;
     
     if(umNome){
