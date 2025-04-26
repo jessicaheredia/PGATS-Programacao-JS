@@ -2,7 +2,6 @@
  
 Crie um script que receba o peso do dog em kg + estoque atual de ração em gramas. 
 Calcule a quantidade diaria de ração com base na seguinte formula
-
 Gramas por dia = Peso X 30 gramas
 
 Exiba:
