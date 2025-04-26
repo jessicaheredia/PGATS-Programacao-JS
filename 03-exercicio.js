@@ -7,6 +7,7 @@ Nome do dog
 Idade
 Se está apto ou não para adoção
 Extra: aplique uma regra com operador lógico para permitir que se o cão for de pequeno porte, pode ser adotado independente da idade. */
+
 const cachorro = [
     {nome:"Aumigo",
     idade: 1,
