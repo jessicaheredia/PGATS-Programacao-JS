@@ -6,5 +6,4 @@ const dogLet = [
     adotado: true,
     }
 ]
-
     console.log(`Nome: ${dogLet[0].nome} \nRaça: ${ dogLet[0].raca.slice(0, 1).toUpperCase()}${dogLet[0].raca.slice(1).toLowerCase()}\nPeso: ${dogLet[0].peso}`);
